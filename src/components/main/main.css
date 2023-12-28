@@ -1,0 +1,78 @@
+.pf__main {
+    padding: 2rem 8rem;
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+    /* background: yellow; */
+    
+}
+
+.pf__main-content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.pf__main-content-container-hello {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.pf__main-content-container-name {
+    color: #8080D7;
+    font-family: Outfit;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 8px;
+}
+
+.pf__main-content-container-role {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 3.5rem;
+}
+
+.pf__main-content-container-subtext {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    margin-top: 2rem;
+}
+
+.pf__main-image-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-left: 95px;
+    margin-right: 45px;
+    overflow: hidden;
+    /* width: 50%; */
+}
+
+.pf__main-image-container img {
+    margin-top: 2rem;
+    /* height: 100%;
+    width: 100%; */
+    width: 430px;
+    height: 430px;
+    /* flex-shrink: 0; */
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
