@@ -1,0 +1,50 @@
+.pf__projects {
+    margin: 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pf__projects-head {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+    margin-top: 4rem;
+}
+
+.pf__projects-head-sub-one{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%
+}
+
+.pf__projects-head-sub-two {
+    color: #8080D7;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.pf__projects-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    justify-content: space-between;
+}
+
+.pf__projects-row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    justify-content: space-between;
+}

@@ -1,0 +1,101 @@
+.pf__procontainer {
+    display: flex;
+    flex-direction: column;
+    width: 345px;
+    height: 520px;
+    background: #08102A;
+    border-radius: 10px;
+}
+
+.pf__procontainer:hover {
+    box-shadow: 3px 3px 3px 3px;
+    background-color: var(--color-bg);
+    transition-duration: 0.3s;
+}
+
+
+.pf__procontainer-title {
+    flex: 1;
+    color: #8080D7;
+    font-family: Outfit;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+
+.pf__procontainer-title p {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.pf__procontainer-desc {
+    flex: 2;
+    color: #FFF;
+    text-align: justify;
+    font-family: Outfit;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pf__procontainer-buttons {
+    flex: 1;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pf__procontainer-buttons-git {
+    width: 132px;
+    height: 44px;
+    
+    border-radius: 20px;
+    background: #8080D7;
+    color: #FFF;
+    border: solid;
+    border-style: none;
+    /* text-align: center; */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 120% */
+}
+
+.pf__procontainer-buttons-git:hover {
+    box-shadow: 2px 2px 2px black;
+    background-color: transparent;
+    border: solid;
+    transition-duration: 0.2s;
+}
+
+.pf__procontainer-buttons-view {
+    width: 132px;
+    height: 44px;
+    margin-left: 1rem;
+    border-radius: 20px;
+    border: 3px solid #FFF;
+    background: rgba(30, 30, 30, 0.00);
+
+    color: #FFF;
+
+    /* text-align: center; */
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.pf__procontainer-buttons-view:hover {
+    background: #8080D7;
+    border: none;
+    transition-duration: 0.2s;
+}
