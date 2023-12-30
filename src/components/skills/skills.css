@@ -1,0 +1,56 @@
+.pf__skills {
+    margin: 4rem 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pf__skills-head {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 2rem;
+    margin-top: 4rem;
+}
+
+.pf__skills-head-text1 {
+    color: #8080D7;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.pf__skills-head-text2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%
+}
+
+.pf__skills-boxes-row1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 9rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.pf__skills-boxes-row2 {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 9rem;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.pf__skills-boxes-row3 {
+    display: flex;
+    flex-direction: row;
+    margin: 0rem 15rem;
+    justify-content: space-between;
+    margin-top: 5rem;
+}

@@ -1,0 +1,22 @@
+.pf__skillbox_box {
+    width: 165px;
+    height: 115px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 2px solid #0C173A;
+    background: rgba(217, 217, 217, 0.00);
+    text-align: center;
+}
+
+.pf__skillbox_box img {
+    height: 85px;
+    width: 85px;
+    margin-top: 12px;
+}
+
+.pf__skillbox_box:hover {
+    background:  #08102A;   
+    box-shadow: 3px 3px 3px 3px;
+    transition-duration: 0.3s;
+
+}
