@@ -3,7 +3,7 @@ import './App.css'
 // import Navbar from './components/Navbar/Navbar'
 // import Main from './components/Main/Main'
 // import Projects from './components/Projects/Projects'
-import { Projects, Main, Navbar, Skills } from './components'
+import { Projects, Main, Navbar, Skills, Contact } from './components'
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
 
         <Projects />
         <Skills />
+        <Contact />
     </div>
   )
 }

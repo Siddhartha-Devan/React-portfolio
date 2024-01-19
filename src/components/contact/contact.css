@@ -1,0 +1,131 @@
+.pf__contact-main {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pf__contact-head{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 0rem 2rem;
+    margin-top: 4rem;
+}
+
+.pf__contact-head-text1{
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%
+}
+
+.pf__contact-head-text2{
+    color: #8080D7;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+}
+
+.pf__contact{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    background: linear-gradient(180deg, rgba(39, 53, 94, 0.50) 0%, rgba(128, 128, 215, 0.50) 100%);
+
+    padding: 2rem 12rem;
+}
+
+.pf__contact-words{
+    display: flex;
+    flex-direction: column;
+    flex: 1.2;
+}
+
+.pf__contact-words-college{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pf__contact-words-college img {
+    height: 44px;
+    width: 50px;
+}
+
+.pf__contact-words-college p {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.pf__contact-words-address {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.pf__contact-words-address img {
+    height: 64px;
+    width: 50px;
+}
+
+.pf__contact-words-address p {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.pf__contact-words-num {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.pf__contact-words-num img {
+    height: 32px;
+    width: 40px;
+}
+
+.pf__contact-words-num p {
+    color: #FFF;
+    font-family: Outfit;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.pf__contact-icons{
+    display: flex;
+    margin-top: 9.5rem;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.pf__contact-icons-git {
+    height: 100px;
+    width: 100px;
+}
+
+.pf__contact-icons-gmail {
+    height: 100px;
+    width: auto;
+}
+
+.pf__contact-icons-linkedin {
+    height: 100px;
+    width: 100px;
+}

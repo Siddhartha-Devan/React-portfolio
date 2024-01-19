@@ -21,7 +21,7 @@ import tensorflow from '../../assets/tensorflow-icon.svg'
 
 const Skills = () => {
   return (
-    <div className='pf__skills'>
+    <div className='pf__skills' id='skills'>
         <div className='pf__skills-head'>
             <div className='pf__skills-head-text1'>
                 Stacks

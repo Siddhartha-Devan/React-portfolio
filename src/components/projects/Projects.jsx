@@ -5,7 +5,7 @@ import Procontainer from '../../containers/procontainer/Procontainer'
 
 const Projects = () => {
   return (
-    <div className='pf__projects'>
+    <div className='pf__projects' id='projects'>
       <div className='pf__projects-head'>
         <div className='pf__projects-head-sub-one'>
           Here are Some of my notable

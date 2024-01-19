@@ -5,12 +5,16 @@
     height: 520px;
     background: #08102A;
     border-radius: 10px;
+    transition: background 0.3s ease-out;
 }
 
 .pf__procontainer:hover {
-    box-shadow: 3px 3px 3px 3px;
-    background-color: var(--color-bg);
+    box-shadow: 3px 3px 3px 3px; 
+    /* background-color: var(--color-bg); */
+    background: linear-gradient(149deg, rgba(12, 23, 58, 0.70) 0%, rgba(128, 128, 215, 0.70) 100%);
     transition-duration: 0.3s;
+    /* transition-delay: 0.3s; */
+    
 }
 
 
@@ -50,6 +54,12 @@
     flex: 1;
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+.pf__procontainer-buttons-a {
+    width: 132px;
+    height: 44px;
+    margin: 0 0 0 0;
 }
 
 .pf__procontainer-buttons-git {

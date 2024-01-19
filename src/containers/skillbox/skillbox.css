@@ -15,8 +15,10 @@
 }
 
 .pf__skillbox_box:hover {
-    background:  #08102A;   
+    background:  #08102A; 
+    /* background: linear-gradient(149deg, rgba(12, 23, 58, 0.70) 0%, rgba(128, 128, 215, 0.70) 100%);   */
     box-shadow: 3px 3px 3px 3px;
     transition-duration: 0.3s;
+    /* transition: background 0.3s ease; */
 
 }
