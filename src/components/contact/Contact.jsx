@@ -47,7 +47,7 @@ const Contact = () => {
                 <a href={'mailto: siddu2003oct@gmail.com'}>
                     <img src= {Gmail} alt="gmail" className='pf__contact-icons-gmail' />    
                 </a>
-                <a href="www.linkedin.com/in/siddharthadevan">
+                <a href="https://www.linkedin.com/in/siddharthadevan">
                     <img src= {Linkedin} alt="linkedin" className='pf__contact-icons-linkedin' />
                 </a>
                 
