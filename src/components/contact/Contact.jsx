@@ -10,7 +10,8 @@ import Location from '../../assets/location-svgrepo-com.svg'
 
 const Contact = () => {
   return (
-    <div className='pf__contact-main' id='contact'>
+    
+    <section className='pf__contact-main' id='contact'>
         <div className='pf__contact-head'>
             <div className='pf__contact-head-text1'>
                 Wanna get in touch
@@ -53,7 +54,7 @@ const Contact = () => {
                 
             </div>
         </div>
-    </div>
+    </section>
   )
 }
 

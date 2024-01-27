@@ -54,3 +54,10 @@
     justify-content: space-between;
     margin-top: 5rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .pf__skills {
+        margin: 3rem 2rem;
+    }
+}

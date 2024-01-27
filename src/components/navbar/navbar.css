@@ -10,8 +10,6 @@
     display: flex;
     flex-direction: row;
     /* justify-content:space-between; */
-    
-    
    
 }
 
@@ -62,6 +60,35 @@
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      /* background-color: lightblue; */
     }
+
+    .pf__navbar {
+        padding: 1.5rem 2rem;
+    }
+    
+    .pf__navbar-links_container p, a {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .pf__navbar-links_container a {
+        border: 1.5px solid transparent;
+        padding: 0 0.8rem;
+        border-radius: 20px;
+    }
+
+    .pf__navbar-links_logo {
+        margin-left: 1.5rem;
+    }
+
+    .logo {
+        height: 18px;
+        margin-top: 2.5px;
+    }
+
+    .pf__navbar-links_container p, a {
+        margin: 0 0.5rem;
+    }
+
   }

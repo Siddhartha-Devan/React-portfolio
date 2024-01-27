@@ -5,7 +5,7 @@ import Procontainer from '../../containers/procontainer/Procontainer'
 
 const Projects = () => {
   return (
-    <div className='pf__projects' id='projects'>
+    <section className='pf__projects' id='projects'>
       <div className='pf__projects-head'>
         <div className='pf__projects-head-sub-one'>
           Here are Some of my notable
@@ -26,7 +26,7 @@ const Projects = () => {
         <Procontainer title = 'Emotion Detection' desc = 'In this project, a facial emotions dataset from kaggle was selected and it was used to develop a tensorflow based deep learning model that accurately classifies the emotions of the human faces into various classes like happy, sad, angry etc.'/>
       </div>
 
-    </div>
+    </section>
   )
 }
 

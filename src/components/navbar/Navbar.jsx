@@ -4,7 +4,7 @@ import logo from '../../assets/SiD.svg'
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
         <div className='pf__navbar'>
           <div className='pf__navbar-links'>
             <div className='pf__navbar-links_logo'>
@@ -20,7 +20,7 @@ const Navbar = () => {
           </div>
         </div>
         
-    </div>
+    </nav>
     
     
   )

@@ -4,7 +4,7 @@ import image from '../../assets/sidd2.png'
 
 const Main = () => {
   return (
-    <div className='pf__main' id='about'>
+    <section className='pf__main' id='about'>
       <div className='pf__main-content-container'>
         <div className='pf__main-content-container-hello'>
           Hello All! I’m
@@ -26,7 +26,7 @@ const Main = () => {
         <img src={image} alt="sidd" />
       </div>
      
-    </div>
+    </section>
   )
 }
 
