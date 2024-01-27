@@ -87,6 +87,7 @@
       /* background-color: lightblue; */
       flex-direction: column;
       padding: 2rem 2rem;
+      width: 100vw;
     }
 
     .pf__main-image-container {
