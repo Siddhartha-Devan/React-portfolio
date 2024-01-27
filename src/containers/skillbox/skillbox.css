@@ -25,13 +25,15 @@
 
 @media only screen and (max-width: 600px) {
     .pf__skillbox_box {
-        width: 148.5px;
-        height: 103.5px;
+        width: 82.5px;
+        height: 57.5px;
+        border-radius: 10px;
     }
 
     .pf__skillbox_box img {
-        height: 76.5px;
-        width: 76.5px;
+        margin-top: 6px;
+        height: 42.5px;
+        width: 42.5px;
     }
 
     

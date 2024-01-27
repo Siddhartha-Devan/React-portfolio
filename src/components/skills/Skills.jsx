@@ -65,7 +65,6 @@ const Skills = () => {
                 <Skillbox tech_logo={numpy}/>
             </div>
             
-            
         </div>
     </section>
   )

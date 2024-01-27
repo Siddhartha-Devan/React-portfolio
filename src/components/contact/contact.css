@@ -136,6 +136,7 @@
         padding: 0rem 2rem;
         padding-bottom: 1rem;
         flex-direction: column;
+        margin-top: 2rem;
     }
 
     .pf__contact-icons {
@@ -144,5 +145,13 @@
 
     .pf__contact-words {
         margin: 0rem 2rem;
+    }
+
+    .pf__contact-head-text1 {
+        font-size: 31px;
+    }
+
+    .pf__contact-head-text2 {
+        font-size: 35px;
     }
 }

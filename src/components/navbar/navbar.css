@@ -68,8 +68,9 @@
     }
     
     .pf__navbar-links_container p, a {
-        font-size: 18px;
+        font-size: 12px;
         font-weight: 500;
+        vertical-align: bottom;
     }
 
     .pf__navbar-links_container a {
@@ -84,7 +85,7 @@
 
     .logo {
         height: 18px;
-        margin-top: 2.5px;
+        margin-top: 0.5px;
     }
 
     .pf__navbar-links_container p, a {
