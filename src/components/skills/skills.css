@@ -35,29 +35,119 @@
     display: flex;
     flex-direction: row;
     margin: 0rem 9rem;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5rem;
+    gap: 2rem;
 }
+
+.pf__skills-boxes-row1-1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 2rem;
+} 
+
+.pf__skills-boxes-row1-2 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    gap: 2rem;
+} 
 
 .pf__skills-boxes-row2 {
     display: flex;
     flex-direction: row;
     margin: 0rem 9rem;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 4.5rem;
+    gap: 2rem;
 }
+
+.pf__skills-boxes-row2-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
+
+.pf__skills-boxes-row2-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
 
 .pf__skills-boxes-row3 {
     display: flex;
     flex-direction: row;
     margin: 0rem 15rem;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 5rem;
+    gap: 2rem;
 }
 
+.pf__skills-boxes-row3-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
+
+.pf__skills-boxes-row3-2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+} 
 
 @media only screen and (max-width: 600px) {
     .pf__skills {
         margin: 3rem 2rem;
     }
+
+    .pf__skills-boxes-row1 {
+        flex-direction: column;
+        margin: 0rem 0rem;
+        margin-top: 5rem;
+        justify-content: center;
+    }
+
+    .pf__skills-boxes-row2 {
+        flex-direction: column;
+        margin: 0rem 0rem;
+        justify-content: center;
+        margin-top: 4rem;
+        
+    }
+
+    .pf__skills-boxes-row3 {
+        flex-direction: column;
+        margin: 0rem 0rem;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+
+    .pf__skills-boxes-row1-1 {
+        justify-content: center;
+    }    
+
+    .pf__skills-boxes-row1-2 {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .pf__skills-boxes-row2-1 {
+        justify-content: center;
+    }    
+
+    .pf__skills-boxes-row2-2 {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .pf__skills-boxes-row3-1 {
+        justify-content: center;
+    }    
+
+    .pf__skills-boxes-row3-2 {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
 }

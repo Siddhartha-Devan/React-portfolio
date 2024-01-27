@@ -32,26 +32,40 @@ const Skills = () => {
         </div>
 
         <div className='pf__skills-boxes-row1'>
-            <Skillbox tech_logo={python} />
-            <Skillbox tech_logo={tensorflow}/>
-            <Skillbox tech_logo={jupyter}/>
-            <Skillbox tech_logo={sklearn}/>
-            <Skillbox tech_logo={pytorch}/>
+            <div className='pf__skills-boxes-row1-1'>
+                <Skillbox tech_logo={python} />
+                <Skillbox tech_logo={tensorflow}/>
+                <Skillbox tech_logo={jupyter}/>
+            </div>
+            <div className='pf__skills-boxes-row1-2'>
+                <Skillbox tech_logo={sklearn}/>
+                <Skillbox tech_logo={pytorch}/>
+            </div>
         </div>
 
         <div className='pf__skills-boxes-row2'>
-            <Skillbox tech_logo={Reactjs}/>
-            <Skillbox tech_logo={figma}/>
-            <Skillbox tech_logo={html}/>
-            <Skillbox tech_logo={css}/>
-            <Skillbox tech_logo={js}/>
+            <div className='pf__skills-boxes-row2-1'>
+                <Skillbox tech_logo={Reactjs}/>
+                <Skillbox tech_logo={figma}/>
+                <Skillbox tech_logo={html}/>
+            </div>
+            <div className='pf__skills-boxes-row2-2'>
+                <Skillbox tech_logo={css}/>
+                <Skillbox tech_logo={js}/>
+            </div>
         </div>
 
         <div className='pf__skills-boxes-row3'>
-            <Skillbox tech_logo={tableau}/>
-            <Skillbox tech_logo={matplot}/>
-            <Skillbox tech_logo={pandas}/>
-            <Skillbox tech_logo={numpy}/>
+            <div className='pf__skills-boxes-row3-1'>
+                <Skillbox tech_logo={tableau}/>
+                <Skillbox tech_logo={matplot}/>
+                <Skillbox tech_logo={pandas}/>
+            </div>
+            <div className='pf__skills-boxes-row3-2'>
+                <Skillbox tech_logo={numpy}/>
+            </div>
+            
+            
         </div>
     </section>
   )

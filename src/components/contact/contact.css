@@ -129,3 +129,20 @@
     height: 100px;
     width: 100px;
 }
+
+@media only screen and (max-width: 600px) {
+    .pf__contact {
+        margin: 0rem 0rem;
+        padding: 0rem 2rem;
+        padding-bottom: 1rem;
+        flex-direction: column;
+    }
+
+    .pf__contact-icons {
+        margin-top: 3rem;
+    }
+
+    .pf__contact-words {
+        margin: 0rem 2rem;
+    }
+}
