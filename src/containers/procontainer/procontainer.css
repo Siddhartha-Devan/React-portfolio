@@ -109,3 +109,41 @@
     border: none;
     transition-duration: 0.2s;
 }
+
+@media only screen and (max-width: 600px) {
+    .pf__procontainer {
+        width: 293px;
+        height: 442px;
+        border-radius: 8.5px;
+    }
+
+    .pf__procontainer-title {
+        font-size: 23px;
+    }
+
+    .pf__procontainer-desc{
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+    }
+
+    .pf__procontainer-buttons-git {
+        width: 47%;
+        height: 35%;
+        border-radius: 18px;
+        font-size: 19px;
+        font-weight: 600;
+    }
+
+    .pf__procontainer-buttons-view {
+        width: 47%;
+        height: 35%;
+        border-radius: 18px;
+        font-size: 19px;
+        font-weight: 600;
+
+        margin-left: 6%;
+    
+    }
+
+}

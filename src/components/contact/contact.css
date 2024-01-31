@@ -147,6 +147,37 @@
         margin: 0rem 2rem;
     }
 
+    .pf__contact-words-college p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .pf__contact-words-college img {
+        height: 37.4px;
+        width: 42.5px;
+    }
+
+    .pf__contact-words-address p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .pf__contact-words-address img {
+        height: 54.4px;
+        width: 42.5px;
+
+    }
+
+    .pf__contact-words-num p {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .pf__contact-words-num img {
+        height: 27.2px;
+        width: 34px;
+    }
+
     .pf__contact-head-text1 {
         font-size: 31px;
     }
@@ -154,4 +185,20 @@
     .pf__contact-head-text2 {
         font-size: 35px;
     }
+
+    .pf__contact-icons-git {
+        height: 80px;
+        width: 80px;
+    }
+
+    .pf__contact-icons-gmail {
+        height: 80px;
+        width: auto;
+    }
+
+    .pf__contact-icons-linkedin {
+        height: 80px;
+        width: 80px;
+    }
 }
+
