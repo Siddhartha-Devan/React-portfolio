@@ -23,7 +23,7 @@ const Projects = () => {
       <div className='pf__projects-row-2'>
         <Procontainer title = 'React UI Project' desc = 'In this is a react.js based UI development project. This project involved selecting a Figma design from the web and converting it into a full fledged responsive web site. This project was done in order to hone my front end dev skills'/>
         <Procontainer title = 'Feature Selection by Genetic Algorithm' desc = 'In this project, I have developed  an evolutionary algorithm for feature selection in Machine Learning. Here, the individuals with the best possible features are  allowed to produce further generations to select the best features from the data.'/>
-        <Procontainer title = 'Emotion Detection' desc = 'In this project, a facial emotions dataset from kaggle was selected and it was used to develop a tensorflow based deep learning model that accurately classifies the emotions of the human faces into various classes like happy, sad, angry etc.'/>
+        <Procontainer title = 'Toxic Comment Classification' desc = 'In this project, a dataset from a kaggle competition was used to classify if a comment is toxic or not using NLP and word vectorization. A vocab size of 200k and 32 different embeddings was used to build a multi layer LSTM using tensorflow'/>
       </div>
 
     </section>
