@@ -13,7 +13,7 @@ const Main = () => {
           Siddhartha Devan V
         </div>
         <div className='pf__main-content-container-role'>
-          Machine Learning | Front-end Dev
+          Data Scientist | ML Engineer
         </div>
         <div className='pf__main-content-container-subtext'>
           I’m an undergrad student pursuing B.Tech in Ai & Ds.  <br />
